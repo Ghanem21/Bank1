@@ -7,13 +7,13 @@
         <entry key="..\:/Bank/app/src/main/res/drawable-v24/card_style.xml" value="0.144" />
         <entry key="..\:/Bank/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.144" />
         <entry key="..\:/Bank/app/src/main/res/drawable-v24/orange_button.xml" value="0.144" />
-        <entry key="..\:/Bank/app/src/main/res/layout/activity_acount_info.xml" value="0.22826086956521738" />
+        <entry key="..\:/Bank/app/src/main/res/layout/activity_acount_info.xml" value="0.10989010989010989" />
         <entry key="..\:/Bank/app/src/main/res/layout/activity_customer_to_transfer.xml" value="0.22826086956521738" />
-        <entry key="..\:/Bank/app/src/main/res/layout/activity_home_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Bank/app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
         <entry key="..\:/Bank/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Bank/app/src/main/res/layout/activity_transaction_receive.xml" value="0.22826086956521738" />
         <entry key="..\:/Bank/app/src/main/res/layout/activity_transaction_send.xml" value="0.22826086956521738" />
-        <entry key="..\:/Bank/app/src/main/res/layout/activity_view_all_customers.xml" value="0.10989583333333333" />
+        <entry key="..\:/Bank/app/src/main/res/layout/activity_view_all_customers.xml" value="0.16799999999999998" />
         <entry key="..\:/Bank/app/src/main/res/layout/customer_card.xml" value="0.22826086956521738" />
         <entry key="..\:/Bank/app/src/main/res/layout/ic_baseline_search_24.xml" value="0.22826086956521738" />
         <entry key="..\:/Bank/app/src/main/res/layout/transactions_card.xml" value="0.22826086956521738" />

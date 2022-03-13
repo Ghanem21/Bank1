@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +13,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/man" />
+        android:background="@drawable/man"
+        android:contentDescription="@string/man" />
 
     <LinearLayout
         android:id="@+id/lay_name"
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Name:"
+            android:text="@string/name"
             android:textColor="@color/pink"
             android:textSize="25sp" />
 
@@ -39,10 +39,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="sqlResult"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:text="sqlResult" />
 
     </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Email:"
+            android:text="@string/email"
             android:textColor="@color/pink"
             android:textSize="25sp" />
 
@@ -69,10 +69,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="sqlResult"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:text="sqlResult" />
 
     </LinearLayout>
 
@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Acc Balance:"
+            android:text="@string/acc_balance"
             android:textColor="@color/pink"
             android:textSize="25sp" />
 
@@ -100,10 +100,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="sqlResult"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            tools:text="sqlResult" />
 
     </LinearLayout>
 
@@ -130,7 +130,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Send"
+                android:text="@string/send"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -139,9 +139,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="5"
                 android:textColor="@color/pink"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                tools:text="5" />
         </LinearLayout>
 
 
@@ -159,7 +159,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Receive"
+                android:text="@string/receive"
                 android:textColor="@color/black"
                 android:textSize="25sp" />
 
@@ -168,9 +168,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="5"
                 android:textColor="@color/pink"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                tools:text="5" />
         </LinearLayout>
     </LinearLayout>
 
@@ -182,7 +182,7 @@
         android:layout_marginTop="120dp"
         android:background="@drawable/orange_button"
         android:onClick="enterAmount"
-        android:text="Transfer Money"
+        android:text="@string/transfer_money"
         android:textColor="@drawable/button_color"
         android:textSize="20sp" />
 
