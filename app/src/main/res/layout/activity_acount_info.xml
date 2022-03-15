@@ -183,7 +183,7 @@
         android:background="@drawable/orange_button"
         android:onClick="enterAmount"
         android:text="@string/transfer_money"
-        android:textColor="@drawable/button_color"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
 
